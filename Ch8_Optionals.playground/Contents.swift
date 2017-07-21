@@ -206,7 +206,7 @@ var petName : String?
  Force-unwrapping an optional when it is nil.
  **/
 
-print(petName!)
+//print(petName!)
 print(petName ?? "default petName")
 
 
