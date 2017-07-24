@@ -60,7 +60,8 @@ var str = "Hello, playground"
 // Seventh example - tuples and pattern matching
 var statusCode: Int = 418
 var errorString: String = "The request failed with the error:"
-switch statusCode {
+switch statusCode
+{
 case 100, 101:
     //    errorString += " Information, 1xx."
     errorString += " Information, \(statusCode)."
